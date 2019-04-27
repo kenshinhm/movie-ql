@@ -4,5 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "description": "movie API with GraphQL",
-  "repository": "https://github.com/kenshinhm/movieql"
+  "repository": "https://github.com/kenshinhm/movieql",
+  "dependencies": {
+    "graphql-yoga": "^1.17.4"
+  }
 }
