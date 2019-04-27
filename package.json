@@ -6,7 +6,8 @@
     "description": "movie API with GraphQL",
     "repository": "https://github.com/kenshinhm/movieql",
     "dependencies": {
-        "graphql-yoga": "^1.17.4"
+        "graphql-yoga": "^1.17.4",
+        "node-fetch": "^2.4.1"
     },
     "devDependencies": {
         "babel-cli": "^6.26.0",
