@@ -7,12 +7,16 @@ type Movie{
     medium_cover_image: String!
 }
 
+#All the query information shown to users
 type Query{
     movies(limit:Int, rating:Float): [Movie]!
     #    movie(id: Int!): Movie #! is not here because we might not find a person
 }
 
+#All the mutation information shown to users
 #type Mutation {
 #    addMovie(name:String!, score:Int!): Movie!
 #    deleteMovie(id:Int!): Boolean!
 #}
+
+#All the subscription information shown to users

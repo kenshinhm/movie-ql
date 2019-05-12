@@ -1,3 +1,4 @@
+// cannot import like below w/o bable-node, babel-preset-env -> refer to .babelrc
 import {GraphQLServer} from "graphql-yoga";
 import resolvers from "./graphql/resolvers";
 
